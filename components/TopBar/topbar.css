@@ -1,0 +1,46 @@
+.header {
+    height: 200px;
+    background: rgb(39, 16, 16);
+    padding: 0 20px;
+    color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    border:3px solid red;
+    justify-content: space-around;
+  
+  }
+  
+  .image-cont{
+    
+  }
+  
+  nav ul {
+   display: none;
+  }
+  
+  @media only screen and (min-width: 800px)  {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;
+    text-align: center;
+    color:blue;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  }
+  
+  
